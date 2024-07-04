@@ -15,8 +15,9 @@ jobs:
           filename: "vikinghug.zip"
           exclusions: "*.git* /*node_modules/* .editorconfig"
 
-      - name: Upload Release
-        uses: ncipollo/release-action@v1.12.0
+      - name: Upload to release
+        uses: JasonEtco/upload-to-release@master
         with:
-          artifacts: "vikinghug.zip"
-          token: ${{ secrets.GITHUB_TOKEN }}
+          args: vikinghug.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
