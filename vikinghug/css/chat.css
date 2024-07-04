@@ -1,0 +1,98 @@
+p {
+  font-family: Tahoma;
+  font-size: 12;
+  text-align: left;
+  padding-left: 12;
+  text-indent: -10;
+  font-style: normal;
+  font-weight: normal;
+  leading: -2;
+  color: #e8890d;
+}
+
+/* Global */
+p0_p {
+  color: #e9e9e9;
+}
+
+/* Team */
+p1_p {
+  color: #ff006c;
+}
+
+/* Guild */
+p2_p {
+  color: #975fff;
+}
+
+/* Alliance */
+p3_p {
+  color: #ffad42;
+}
+
+/* Party */
+p4_p {
+  color: #00e4ff;
+}
+
+/* Sales */
+p5_p {
+  color: #b3783e;
+}
+
+/* Seek */
+p6_p {
+  color: #e4a0d5;
+}
+
+/* Noob */
+p7_p {
+  color: #d3aa07;
+}
+
+/* Admin */
+p8_p {
+  color: #ff00ff;
+}
+
+/* Private */
+p9_p {
+  color: #7ec3ff;
+}
+
+/* Info */
+p10_p {
+  color: #46a324;
+}
+
+/* FightLog */
+p11_p {
+  color: #9dff00;
+}
+
+/* Public */
+p12_p {
+  color: #ef3a3e;
+}
+
+/* Arena */
+p13_p {
+  color: #f16392;
+}
+
+/* Community */
+p14_p {
+  color: #9ec79d;
+}
+
+sender_p {
+  color: #1b96ff;
+}
+
+bubble {
+  font-family: Tahoma;
+  font-size: 18px;
+  color: #312d24;
+  padding-left: -15;
+  text-align: left;
+}
