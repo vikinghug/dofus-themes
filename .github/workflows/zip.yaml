@@ -10,5 +10,5 @@ jobs:
         with:
           type: "zip"
           path: "./vikinghug"
-          filename: "releases/vikinghug.zip"
+          filename: "vikinghug.zip"
           exclusions: "*.git* /*node_modules/* .editorconfig"
